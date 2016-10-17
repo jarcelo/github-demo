@@ -15,7 +15,11 @@ public class GitSampleProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        sayHello();
+    }
+
+    private static void sayHello() {
+        System.out.println("Hello, world!");
     }
     
 }
